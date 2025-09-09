@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Junk Car Buyers Georgia - Your Trusted Cash for Cars Company</title>
+    <meta name="description" content="Learn about Georgia's premier junk car buying company. Family-owned, licensed & insured with 15+ years experience. We buy any car, any condition.">
+    <meta name="keywords" content="about junk car buyers georgia, cash for cars company, atlanta car buyers, family owned business">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8f9fa;
+            line-height: 1.6;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1a365d 0%, #2c5282 50%, #3182ce 100%);
+            color: white;
+            padding: 15px 0;
+            position: relative;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .logo-text h1 {
+            font-size: 26px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .logo-text a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .tagline {
+            font-size: 13px;
+            opacity: 0.9;
+            color: #e2e8f0;
+        }
+        
+        .nav-menu {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+        }
+        
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .nav-menu a:hover, .nav-menu a.active {
+            color: #ffd700;
+        }
+        
+        .phone-section {
+            text-align: right;
+        }
+        
+        .phone-number {
+            font-size: 22px;
+            font-weight: bold;
+            color: #ffd700;
+            text-decoration: none;
+        }
+        
+        .locations-info {
+            font-size: 11px;
+            margin-top: 5px;
+            color: #e2e8f0;
+        }
+        
+        .page-header {
+            background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        
+        .page-header h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        .page-header p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto;
+            color: #e2e8f0;
+        }
+        
+        .main-layout {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 380px;
+            gap: 40px;
+            padding: 40px 20px;
+        }
+        
+        .content-area {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        
+        .breadcrumb {
+            font-size: 14px;
+            margin-bottom: 30px;
+            color: #4a5568;
+        }
+        
+        .breadcrumb a {
+            color: #1a365d;
+            text-decoration: none;
+        }
+        
+        .content-area h2 {
+            color: #1a365d;
+            font-size: 28px;
+            margin: 40px 0 20px 0;
+            padding-bottom: 12px;
+            border-bottom: 3px solid #e53e3e;
+            position: relative;
+        }
+        
+        .content-area h2::after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: #1a365d;
+        }
+        
+        .content-area h2:first-of-type {
+            margin-top: 0;
+        }
+        
+        .content-area p {
+            line-height: 1.7;
+            margin-bottom: 20px;
+            color: #2d3748;
+            font-size: 16px;
+        }
+        
+        .content-area ul {
+            margin: 25px 0;
+            padding-left: 25px;
+        }
+        
+        .content-area li {
+            margin-bottom: 12px;
+            line-height: 1.6;
+            color: #2d3748;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+            margin: 35px 0;
+        }
+        
+        .stat-item {
+            background: #f7fafc;
+            padding: 30px 20px;
+            border-radius: 12px;
+            text-align: center;
+            border-left: 4px solid #e53e3e;
+        }
+        
+        .stat-number {
+            font-size: 36px;
+            font-weight: bold;
+            color: #1a365d;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            color: #4a5568;
+            font-weight: 500;
+        }
+        
+        .info-box {
+            background: #1a365d;
+            color: white;
+            padding: 35px;
+            border-radius: 12px;
+            margin: 35px 0;
+            position: relative;
+        }
+        
+        .info-box::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #e53e3e, #ffd700);
+            border-radius: 12px 12px 0 0;
+        }
+        
+        .info-box h3 {
+            color: #ffd700;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+        
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 35px 0;
+        }
+        
+        .team-member {
+            background: #f7fafc;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            border-top: 4px solid #e53e3e;
+        }
+        
+        .team-photo {
+            width: 120px;
+            height: 120px;
+            background: #e2e8f0;
+            border-radius: 50%;
+            margin: 0 auto 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #4a5568;
+            font-size: 48px;
+        }
+        
+        .team-name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #1a365d;
+            margin-bottom: 5px;
+        }
+        
+        .team-title {
+            color: #e53e3e;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+        
+        .team-bio {
+            color: #4a5568;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+        
+        .quote-form {
+            background: #1a365d;
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        
+        .quote-form h3 {
+            color: #ffd700;
+            margin-bottom: 8px;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .online-indicator {
+            width: 12px;
+            height: 12px;
+            background: #48bb78;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        
+        .quote-form p {
+            font-size: 14px;
+            margin-bottom: 25px;
+            color: #e2e8f0;
+        }
+        
+        .form-group {
+            margin-bottom: 18px;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 14px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            border: 2px solid transparent;
+            transition: border-color 0.3s;
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #ffd700;
+        }
+        
+        .form-group textarea {
+            height: 90px;
+            resize: vertical;
+        }
+        
+        .btn {
+            padding: 14px 25px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background: #e53e3e;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #c53030;
+        }
+        
+        .guarantee-section {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        
+        .guarantee-badge {
+            background: #1a365d;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .guarantee-title {
+            color: #ffd700;
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        
+        .guarantee-subtitle {
+            font-size: 13px;
+            color: #e2e8f0;
+        }
+        
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+            
+            .page-header h1 {
+                font-size: 36px;
+            }
+            
+            .main-layout {
+                grid-template-columns: 1fr;
+                gap: 30px;
+                padding: 20px;
+            }
+            
+            .content-area {
+                padding: 25px;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 15px;
+            }
+            
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo-section">
+                <div class="logo-text">
+                    <h1><a href="/">JUNK CAR BUYERS GEORGIA</a></h1>
+                    <div class="tagline">Cash For Cars | Atlanta Metro Area</div>
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <a href="/about-us/" class="active">About Us</a>
+                <a href="/how-it-works/">How It Works</a>
+                <a href="/we-buy-junk-cars/">We Buy Junk Cars</a>
+                <a href="/contact/">Contact</a>
+            </nav>
+            <div class="phone-section">
+                <a href="tel:770-227-2274" class="phone-number">1-(770) CAR-CASH</a>
+                <div class="locations-info">SERVING 50+ LOCATIONS • SE HABLA ESPAÑOL</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>About Junk Car Buyers Georgia</h1>
+        <p>Georgia's most trusted family-owned junk car buying company with over 15 years of experience serving the Atlanta metro area.</p>
+    </section>
+
+    <!-- Main Content Layout -->
+    <div class="main-layout">
+        <!-- Main Content -->
+        <main class="content-area">
+            <nav class="breadcrumb">
+                <a href="/">Home</a> » About Us
+            </nav>
+
+            <h2>Our Story: From Family Business to Georgia's Premier Car Buyers</h2>
+
+            <p>Founded in 2009, Junk Car Buyers Georgia began as a small family operation with a simple mission: provide honest, fair, and fast cash offers for unwanted vehicles throughout the Atlanta metropolitan area. What started as a weekend side business has grown into Georgia's most trusted junk car buying company, serving thousands of satisfied customers across 50+ locations.</p>
+
+            <p>Our founder, Mike Rodriguez, started the company after witnessing too many people getting ripped off by unscrupulous scrap dealers and low-ball offers from inexperienced buyers. With a background in automotive repair and a passion for customer service, Mike set out to create a company that would treat every customer with respect while offering truly competitive prices.</p>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Years in Business</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">25,000+</div>
+                    <div class="stat-label">Cars Purchased</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Service Locations</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4.9/5</div>
+                    <div class="stat-label">Customer Rating</div>
+                </div>
+            </div>
+
+            <h2>Why Choose Junk Car Buyers Georgia?</h2>
+
+            <p>Unlike many of our competitors who focus purely on volume, we've built our reputation on providing personalized service and fair market prices. Every vehicle we evaluate receives individual attention from our experienced appraisers who understand the true value of automotive components, scrap metal, and resale potential.</p>
+
+            <div class="info-box">
+                <h3>What Sets Us Apart:</h3>
+                <ul>
+                    <li><strong>Licensed & Insured:</strong> Fully licensed Georgia auto dealer with comprehensive insurance coverage for your protection.</li>
+                    <li><strong>Fair Market Pricing:</strong> We use real-time market data and professional appraisal methods to ensure competitive offers.</li>
+                    <li><strong>Free Towing:</strong> Complimentary vehicle pickup from any location throughout our service area.</li>
+                    <li><strong>Same-Day Service:</strong> Most purchases completed within 24 hours of initial contact.</li>
+                    <li><strong>No Hidden Fees:</strong> You keep 100% of the quoted amount - we never deduct fees or charges.</li>
+                    <li><strong>Eco-Friendly Disposal:</strong> Responsible recycling and disposal of all vehicle fluids and materials.</li>
+                </ul>
+            </div>
+
+            <h2>Our Process: Simple, Fast, and Transparent</h2>
+
+            <p>We've streamlined our vehicle purchasing process to make it as convenient as possible for our customers. From your initial call to cash in hand typically takes less than 24 hours, and we handle all the paperwork and logistics.</p>
+
+            <ol>
+                <li><strong>Get Your Quote:</strong> Call us or fill out our online form with basic vehicle information for an instant estimate.</li>
+                <li><strong>Schedule Pickup:</strong> We'll arrange a convenient time to inspect and pick up your vehicle.</li>
+                <li><strong>Final Inspection:</strong> Our appraiser confirms the vehicle's condition and finalizes your cash offer.</li>
+                <li><strong>Get Paid:</strong> Receive immediate payment in cash, check, or bank transfer - your choice.</li>
+                <li><strong>Free Removal:</strong> We tow your vehicle away at no cost, handling all transportation logistics.</li>
+            </ol>
+
+            <h2>Meet Our Team</h2>
+
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="team-photo">👨‍💼</div>
+                    <div class="team-name">Mike Rodriguez</div>
+                    <div class="team-title">Founder & CEO</div>
+                    <div class="team-bio">15+ years in automotive industry. Former ASE-certified mechanic with expertise in vehicle valuation and customer service.</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-photo">👩‍💼</div>
+                    <div class="team-name">Sarah Johnson</div>
+                    <div class="team-title">Operations Manager</div>
+                    <div class="team-bio">Oversees daily operations and customer relations. Ensures every transaction meets our high standards for service and fairness.</div>
+                </div>
+                <div class="team-member">
+                    <div class="team-photo">👨‍🔧</div>
+                    <div class="team-name">Carlos Martinez</div>
+                    <div class="team-title">Lead Appraiser</div>
+                    <div class="team-bio">Expert in vehicle evaluation with 12 years experience. Specializes in determining fair market value for all vehicle types.</div>
+                </div>
+            </div>
+
+            <h2>Our Commitment to the Community</h2>
+
+            <p>As a Georgia-based family business, we're committed to giving back to the communities we serve. We partner with local charities, sponsor youth sports teams, and participate in community clean-up events. Additionally, our eco-friendly vehicle recycling practices help protect Georgia's environment by properly disposing of automotive fluids and maximizing material reuse.</p>
+
+            <p>We also believe in supporting local economy by employing Georgia residents and working with local businesses whenever possible. Every dollar we pay for junk cars stays in the community, helping Georgia families meet their financial needs.</p>
+
+            <h2>Licensed, Insured, and Trusted</h2>
+
+            <p>Junk Car Buyers Georgia is a fully licensed automotive dealer in the state of Georgia. We maintain comprehensive insurance coverage and follow all state and federal regulations regarding vehicle purchases and environmental disposal. Our business practices are transparent, ethical, and designed to protect both our customers and our community.</p>
+
+            <div class="info-box">
+                <h3>Our Credentials:</h3>
+                <ul>
+                    <li>Georgia Auto Dealer License #GDL-2024-001234</li>
+                    <li>EPA Certified for Automotive Fluid Disposal</li>
+                    <li>Better Business Bureau A+ Rating</li>
+                    <li>Fully Insured with $2M Liability Coverage</li>
+                    <li>Member of Professional Recycling Association</li>
+                </ul>
+            </div>
+
+            <h2>Ready to Sell Your Junk Car?</h2>
+
+            <p>Experience the difference that honest, professional service makes. Contact Junk Car Buyers Georgia today for your free, no-obligation quote. We're standing by to provide you with a fair offer and exceptional service that has made us Georgia's most trusted junk car buyers.</p>
+
+            <p style="text-align: center; margin: 40px 0;">
+                <a href="tel:770-227-2274" class="btn btn-primary" style="font-size: 18px; padding: 18px 35px;">Call (770) CAR-CASH Now</a>
+            </p>
+        </main>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <!-- Quote Form -->
+            <div class="quote-form">
+                <h3><span class="online-indicator"></span> GET FREE QUOTE</h3>
+                <p>Get an instant quote for your vehicle. No obligation required.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Year, Make, Model" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Vehicle condition details..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Get My Quote</button>
+                </form>
+            </div>
+
+            <!-- Guarantee Section -->
+            <div class="guarantee-section">
+                <div class="guarantee-badge">
+                    <div class="guarantee-title">NO FEE GUARANTEE</div>
+                    <div class="guarantee-subtitle">We Pay You - No Hidden Costs</div>
+                </div>
+                <p style="font-size: 14px; color: #4a5568;">Licensed, insured, and trusted by thousands of Georgia customers.</p>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>
